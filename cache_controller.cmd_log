@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "/home/student2/ajstephe/Desktop/COE758/Project1COE758/cache_controller.xst" -ofn "/home/student2/ajstephe/Desktop/COE758/Project1COE758/cache_controller.syr" 
+xst -intstyle ise -ifn "/home/student2/ajstephe/Desktop/COE758/Project1COE758/cache_controller.xst" -ofn "/home/student2/ajstephe/Desktop/COE758/Project1COE758/cache_controller.syr" 

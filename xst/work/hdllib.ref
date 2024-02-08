@@ -1,0 +1,14 @@
+EN sdram NULL /home/student2/ajstephe/Desktop/COE758/Project1COE758/SDRAM.vhd sub00/vhpl04 1666907112
+AR ila ila_a /home/student2/ajstephe/Desktop/COE758/Project1COE758/ipcore_dir/ila.vhd sub00/vhpl09 1666908458
+EN cachecontroller NULL /home/student2/ajstephe/Desktop/COE758/Project1COE758/cacheController.vhd sub00/vhpl02 1666908459
+AR icon icon_a /home/student2/ajstephe/Desktop/COE758/Project1COE758/ipcore_dir/icon.vhd sub00/vhpl07 1666908456
+EN blockram NULL /home/student2/ajstephe/Desktop/COE758/Project1COE758/SDRAM.vhd sub00/vhpl12 1666908451
+EN icon NULL /home/student2/ajstephe/Desktop/COE758/Project1COE758/ipcore_dir/icon.vhd sub00/vhpl06 1666908455
+EN cpu_gen NULL /home/student2/ajstephe/Desktop/COE758/Project1COE758/cpu_gen.vhd sub00/vhpl00 1666908449
+EN sram NULL /home/student2/ajstephe/Desktop/COE758/Project1COE758/ipcore_dir/SRAM.vhd sub00/vhpl10 1666908453
+AR sram sram_a /home/student2/ajstephe/Desktop/COE758/Project1COE758/ipcore_dir/SRAM.vhd sub00/vhpl11 1666908454
+AR sdram behavioral /home/student2/ajstephe/Desktop/COE758/Project1COE758/SDRAM.vhd sub00/vhpl05 1666907113
+AR cachecontroller behavioral /home/student2/ajstephe/Desktop/COE758/Project1COE758/cacheController.vhd sub00/vhpl03 1666908460
+AR cpu_gen behavioral /home/student2/ajstephe/Desktop/COE758/Project1COE758/cpu_gen.vhd sub00/vhpl01 1666908450
+AR blockram behavioral /home/student2/ajstephe/Desktop/COE758/Project1COE758/SDRAM.vhd sub00/vhpl13 1666908452
+EN ila NULL /home/student2/ajstephe/Desktop/COE758/Project1COE758/ipcore_dir/ila.vhd sub00/vhpl08 1666908457

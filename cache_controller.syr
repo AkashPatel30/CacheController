@@ -1,0 +1,217 @@
+Release 13.4 - xst O.87xd (lin64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.07 secs
+ 
+--> 
+Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.07 secs
+ 
+--> 
+Reading design: cache_controller.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "cache_controller.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "cache_controller"
+Output Format                      : NGC
+Target Device                      : xc3s500e-5-fg320
+
+---- Source Options
+Top Module Name                    : cache_controller
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "/home/student2/ajstephe/Desktop/COE758/Project1COE758/cacheController.vhd" in Library work.
+ERROR:HDLParsers:3011 - "/home/student2/ajstephe/Desktop/COE758/Project1COE758/cacheController.vhd" Line 33. End Identifier cache_controller does not match declaration, cacheController.
+ERROR:HDLParsers:3010 - "/home/student2/ajstephe/Desktop/COE758/Project1COE758/cacheController.vhd" Line 34. Entity cache_controller does not exist.
+ERROR:HDLParsers:3312 - "/home/student2/ajstephe/Desktop/COE758/Project1COE758/cacheController.vhd" Line 38. Undefined symbol 'EdgeType'.
+ERROR:HDLParsers:1209 - "/home/student2/ajstephe/Desktop/COE758/Project1COE758/cacheController.vhd" Line 38. EdgeType: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "/home/student2/ajstephe/Desktop/COE758/Project1COE758/cacheController.vhd" Line 38. Undefined symbol 'RISING'.
+ERROR:HDLParsers:1209 - "/home/student2/ajstephe/Desktop/COE758/Project1COE758/cacheController.vhd" Line 38. RISING: Undefined symbol (last report in this block)
+ERROR:HDLParsers:532 - "/home/student2/ajstephe/Desktop/COE758/Project1COE758/cacheController.vhd" Line 38. Deferred constant are allowed only in packages.
+ERROR:HDLParsers:3312 - "/home/student2/ajstephe/Desktop/COE758/Project1COE758/cacheController.vhd" Line 41. Undefined symbol 'CACHE_MEMORY'.
+ERROR:HDLParsers:1209 - "/home/student2/ajstephe/Desktop/COE758/Project1COE758/cacheController.vhd" Line 41. CACHE_MEMORY: Undefined symbol (last report in this block)
+ERROR:HDLParsers:842 - "/home/student2/ajstephe/Desktop/COE758/Project1COE758/cacheController.vhd" Line 41. The type of the element in aggregate does not correspond to any array type.
+ERROR:HDLParsers:3312 - "/home/student2/ajstephe/Desktop/COE758/Project1COE758/cacheController.vhd" Line 43. Undefined symbol 'STD_LOGIC_VECTOR'.
+ERROR:HDLParsers:1209 - "/home/student2/ajstephe/Desktop/COE758/Project1COE758/cacheController.vhd" Line 43. STD_LOGIC_VECTOR: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "/home/student2/ajstephe/Desktop/COE758/Project1COE758/cacheController.vhd" Line 48. Undefined symbol 'STD_LOGIC'.
+ERROR:HDLParsers:1209 - "/home/student2/ajstephe/Desktop/COE758/Project1COE758/cacheController.vhd" Line 48. STD_LOGIC: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "/home/student2/ajstephe/Desktop/COE758/Project1COE758/cacheController.vhd" Line 75. Undefined symbol 'EdgeType'.
+ERROR:HDLParsers:1209 - "/home/student2/ajstephe/Desktop/COE758/Project1COE758/cacheController.vhd" Line 75. EdgeType: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "/home/student2/ajstephe/Desktop/COE758/Project1COE758/cacheController.vhd" Line 76. Undefined symbol 'MODEType'.
+ERROR:HDLParsers:1209 - "/home/student2/ajstephe/Desktop/COE758/Project1COE758/cacheController.vhd" Line 76. MODEType: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "/home/student2/ajstephe/Desktop/COE758/Project1COE758/cacheController.vhd" Line 76. Undefined symbol 'NO_CHANGE'.
+ERROR:HDLParsers:1209 - "/home/student2/ajstephe/Desktop/COE758/Project1COE758/cacheController.vhd" Line 76. NO_CHANGE: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "/home/student2/ajstephe/Desktop/COE758/Project1COE758/cacheController.vhd" Line 80. Undefined symbol 'STD_LOGIC'.
+ERROR:HDLParsers:1209 - "/home/student2/ajstephe/Desktop/COE758/Project1COE758/cacheController.vhd" Line 80. STD_LOGIC: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "/home/student2/ajstephe/Desktop/COE758/Project1COE758/cacheController.vhd" Line 81. Undefined symbol 'STD_LOGIC_VECTOR'.
+ERROR:HDLParsers:1209 - "/home/student2/ajstephe/Desktop/COE758/Project1COE758/cacheController.vhd" Line 81. STD_LOGIC_VECTOR: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "/home/student2/ajstephe/Desktop/COE758/Project1COE758/cacheController.vhd" Line 90. Undefined symbol 'clk'.
+ERROR:HDLParsers:1209 - "/home/student2/ajstephe/Desktop/COE758/Project1COE758/cacheController.vhd" Line 90. clk: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "/home/student2/ajstephe/Desktop/COE758/Project1COE758/cacheController.vhd" Line 91. Undefined symbol 'sdram_addr_sig'.
+ERROR:HDLParsers:1209 - "/home/student2/ajstephe/Desktop/COE758/Project1COE758/cacheController.vhd" Line 91. sdram_addr_sig: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "/home/student2/ajstephe/Desktop/COE758/Project1COE758/cacheController.vhd" Line 92. Undefined symbol 'sdram_wr_rd_sig'.
+ERROR:HDLParsers:1209 - "/home/student2/ajstephe/Desktop/COE758/Project1COE758/cacheController.vhd" Line 92. sdram_wr_rd_sig: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "/home/student2/ajstephe/Desktop/COE758/Project1COE758/cacheController.vhd" Line 93. Undefined symbol 'sdram_mstrb_sig'.
+ERROR:HDLParsers:1209 - "/home/student2/ajstephe/Desktop/COE758/Project1COE758/cacheController.vhd" Line 93. sdram_mstrb_sig: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "/home/student2/ajstephe/Desktop/COE758/Project1COE758/cacheController.vhd" Line 94. Undefined symbol 'sdram_dina_sig'.
+ERROR:HDLParsers:1209 - "/home/student2/ajstephe/Desktop/COE758/Project1COE758/cacheController.vhd" Line 94. sdram_dina_sig: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "/home/student2/ajstephe/Desktop/COE758/Project1COE758/cacheController.vhd" Line 96. Undefined symbol 'sdram_douta_sig'.
+ERROR:HDLParsers:1209 - "/home/student2/ajstephe/Desktop/COE758/Project1COE758/cacheController.vhd" Line 96. sdram_douta_sig: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "/home/student2/ajstephe/Desktop/COE758/Project1COE758/cacheController.vhd" Line 102. Undefined symbol 'EDGE'.
+ERROR:HDLParsers:1209 - "/home/student2/ajstephe/Desktop/COE758/Project1COE758/cacheController.vhd" Line 102. EDGE: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "/home/student2/ajstephe/Desktop/COE758/Project1COE758/cacheController.vhd" Line 107. Undefined symbol 'sram_wen'.
+ERROR:HDLParsers:1209 - "/home/student2/ajstephe/Desktop/COE758/Project1COE758/cacheController.vhd" Line 107. sram_wen: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "/home/student2/ajstephe/Desktop/COE758/Project1COE758/cacheController.vhd" Line 108. Undefined symbol 'sram_addr_sig'.
+ERROR:HDLParsers:1209 - "/home/student2/ajstephe/Desktop/COE758/Project1COE758/cacheController.vhd" Line 108. sram_addr_sig: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "/home/student2/ajstephe/Desktop/COE758/Project1COE758/cacheController.vhd" Line 109. Undefined symbol 'sram_din_sig'.
+ERROR:HDLParsers:1209 - "/home/student2/ajstephe/Desktop/COE758/Project1COE758/cacheController.vhd" Line 109. sram_din_sig: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "/home/student2/ajstephe/Desktop/COE758/Project1COE758/cacheController.vhd" Line 111. Undefined symbol 'sram_dout_sig'.
+ERROR:HDLParsers:1209 - "/home/student2/ajstephe/Desktop/COE758/Project1COE758/cacheController.vhd" Line 111. sram_dout_sig: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "/home/student2/ajstephe/Desktop/COE758/Project1COE758/cacheController.vhd" Line 114. Undefined symbol 'cpu_cs'.
+ERROR:HDLParsers:1209 - "/home/student2/ajstephe/Desktop/COE758/Project1COE758/cacheController.vhd" Line 114. cpu_cs: Undefined symbol (last report in this block)
+ERROR:HDLParsers:808 - "/home/student2/ajstephe/Desktop/COE758/Project1COE758/cacheController.vhd" Line 116. = can not have such operands in this context.
+ERROR:HDLParsers:808 - "/home/student2/ajstephe/Desktop/COE758/Project1COE758/cacheController.vhd" Line 117. = can not have such operands in this context.
+ERROR:HDLParsers:3312 - "/home/student2/ajstephe/Desktop/COE758/Project1COE758/cacheController.vhd" Line 119. Undefined symbol 'ready'.
+ERROR:HDLParsers:3312 - "/home/student2/ajstephe/Desktop/COE758/Project1COE758/cacheController.vhd" Line 119. Undefined symbol 'ready_sig'.
+ERROR:HDLParsers:1209 - "/home/student2/ajstephe/Desktop/COE758/Project1COE758/cacheController.vhd" Line 119. ready_sig: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "/home/student2/ajstephe/Desktop/COE758/Project1COE758/cacheController.vhd" Line 120. Undefined symbol 'sdram_wr_rd_debug'.
+ERROR:HDLParsers:3312 - "/home/student2/ajstephe/Desktop/COE758/Project1COE758/cacheController.vhd" Line 121. Undefined symbol 'mstrb'.
+ERROR:HDLParsers:3312 - "/home/student2/ajstephe/Desktop/COE758/Project1COE758/cacheController.vhd" Line 122. Undefined symbol 'sram_wen_debug'.
+ERROR:HDLParsers:3312 - "/home/student2/ajstephe/Desktop/COE758/Project1COE758/cacheController.vhd" Line 123. Undefined symbol 'sram_addr'.
+ERROR:HDLParsers:3312 - "/home/student2/ajstephe/Desktop/COE758/Project1COE758/cacheController.vhd" Line 124. Undefined symbol 'sram_din'.
+ERROR:HDLParsers:3312 - "/home/student2/ajstephe/Desktop/COE758/Project1COE758/cacheController.vhd" Line 125. Undefined symbol 'sram_dout'.
+ERROR:HDLParsers:3312 - "/home/student2/ajstephe/Desktop/COE758/Project1COE758/cacheController.vhd" Line 126. Undefined symbol 'sdram_addr'.
+ERROR:HDLParsers:3312 - "/home/student2/ajstephe/Desktop/COE758/Project1COE758/cacheController.vhd" Line 127. Undefined symbol 'sdram_dina'.
+ERROR:HDLParsers:3312 - "/home/student2/ajstephe/Desktop/COE758/Project1COE758/cacheController.vhd" Line 128. Undefined symbol 'sdram_douta'.
+ERROR:HDLParsers:3312 - "/home/student2/ajstephe/Desktop/COE758/Project1COE758/cacheController.vhd" Line 130. Undefined symbol 'tag'.
+ERROR:HDLParsers:3312 - "/home/student2/ajstephe/Desktop/COE758/Project1COE758/cacheController.vhd" Line 130. Undefined symbol 'GET_TAG'.
+ERROR:HDLParsers:1209 - "/home/student2/ajstephe/Desktop/COE758/Project1COE758/cacheController.vhd" Line 130. GET_TAG: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "/home/student2/ajstephe/Desktop/COE758/Project1COE758/cacheController.vhd" Line 130. Undefined symbol 'addr'.
+ERROR:HDLParsers:1209 - "/home/student2/ajstephe/Desktop/COE758/Project1COE758/cacheController.vhd" Line 130. addr: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "/home/student2/ajstephe/Desktop/COE758/Project1COE758/cacheController.vhd" Line 131. Undefined symbol 'index'.
+ERROR:HDLParsers:3312 - "/home/student2/ajstephe/Desktop/COE758/Project1COE758/cacheController.vhd" Line 131. Undefined symbol 'GET_INDEX'.
+ERROR:HDLParsers:1209 - "/home/student2/ajstephe/Desktop/COE758/Project1COE758/cacheController.vhd" Line 131. GET_INDEX: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "/home/student2/ajstephe/Desktop/COE758/Project1COE758/cacheController.vhd" Line 132. Undefined symbol 'offset'.
+ERROR:HDLParsers:3312 - "/home/student2/ajstephe/Desktop/COE758/Project1COE758/cacheController.vhd" Line 132. Undefined symbol 'GET_OFFSET'.
+ERROR:HDLParsers:1209 - "/home/student2/ajstephe/Desktop/COE758/Project1COE758/cacheController.vhd" Line 132. GET_OFFSET: Undefined symbol (last report in this block)
+ERROR:HDLParsers:1209 - "/home/student2/ajstephe/Desktop/COE758/Project1COE758/cacheController.vhd" Line 139. index: Undefined symbol (last report in this block)
+ERROR:HDLParsers:1209 - "/home/student2/ajstephe/Desktop/COE758/Project1COE758/cacheController.vhd" Line 141. tag: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "/home/student2/ajstephe/Desktop/COE758/Project1COE758/cacheController.vhd" Line 143. Undefined symbol 'cpu_dout'.
+ERROR:HDLParsers:1209 - "/home/student2/ajstephe/Desktop/COE758/Project1COE758/cacheController.vhd" Line 143. cpu_dout: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "/home/student2/ajstephe/Desktop/COE758/Project1COE758/cacheController.vhd" Line 145. Undefined symbol 'tag_register'.
+ERROR:HDLParsers:1209 - "/home/student2/ajstephe/Desktop/COE758/Project1COE758/cacheController.vhd" Line 145. tag_register: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "/home/student2/ajstephe/Desktop/COE758/Project1COE758/cacheController.vhd" Line 145. Undefined symbol 'to_integer'.
+ERROR:HDLParsers:1209 - "/home/student2/ajstephe/Desktop/COE758/Project1COE758/cacheController.vhd" Line 145. to_integer: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "/home/student2/ajstephe/Desktop/COE758/Project1COE758/cacheController.vhd" Line 145. Undefined symbol 'unsigned'.
+ERROR:HDLParsers:1209 - "/home/student2/ajstephe/Desktop/COE758/Project1COE758/cacheController.vhd" Line 145. unsigned: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "/home/student2/ajstephe/Desktop/COE758/Project1COE758/cacheController.vhd" Line 147. Undefined symbol 'valid_bit'.
+ERROR:HDLParsers:1209 - "/home/student2/ajstephe/Desktop/COE758/Project1COE758/cacheController.vhd" Line 147. valid_bit: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "/home/student2/ajstephe/Desktop/COE758/Project1COE758/cacheController.vhd" Line 148. Undefined symbol 'dirty_bit'.
+ERROR:HDLParsers:1209 - "/home/student2/ajstephe/Desktop/COE758/Project1COE758/cacheController.vhd" Line 148. dirty_bit: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "/home/student2/ajstephe/Desktop/COE758/Project1COE758/cacheController.vhd" Line 159. Undefined symbol 'cpu_din'.
+ERROR:HDLParsers:3312 - "/home/student2/ajstephe/Desktop/COE758/Project1COE758/cacheController.vhd" Line 164. Undefined symbol 'dirty_flag'.
+ERROR:HDLParsers:3312 - "/home/student2/ajstephe/Desktop/COE758/Project1COE758/cacheController.vhd" Line 165. Undefined symbol 'hit_debug'.
+ERROR:HDLParsers:1209 - "/home/student2/ajstephe/Desktop/COE758/Project1COE758/cacheController.vhd" Line 175. hit_debug: Undefined symbol (last report in this block)
+ERROR:HDLParsers:808 - "/home/student2/ajstephe/Desktop/COE758/Project1COE758/cacheController.vhd" Line 178. = can not have such operands in this context.
+ERROR:HDLParsers:1209 - "/home/student2/ajstephe/Desktop/COE758/Project1COE758/cacheController.vhd" Line 202. offset: Undefined symbol (last report in this block)
+ERROR:HDLParsers:808 - "/home/student2/ajstephe/Desktop/COE758/Project1COE758/cacheController.vhd" Line 210. = can not have such operands in this context.
+ERROR:HDLParsers:808 - "/home/student2/ajstephe/Desktop/COE758/Project1COE758/cacheController.vhd" Line 258. = can not have such operands in this context.
+ERROR:HDLParsers:1209 - "/home/student2/ajstephe/Desktop/COE758/Project1COE758/cacheController.vhd" Line 275. dirty_flag: Undefined symbol (last report in this block)
+ERROR:HDLParsers:1209 - "/home/student2/ajstephe/Desktop/COE758/Project1COE758/cacheController.vhd" Line 279. cpu_din: Undefined symbol (last report in this block)
+WARNING:HDLParsers:1406 - "/home/student2/ajstephe/Desktop/COE758/Project1COE758/cacheController.vhd" Line 112. No sensitivity list and no wait in the process
+--> 
+
+
+Total memory usage is 614776 kilobytes
+
+Number of errors   :   97 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+
